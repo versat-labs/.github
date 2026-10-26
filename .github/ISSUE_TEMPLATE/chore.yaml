@@ -2,6 +2,7 @@ name: Chore
 description: Technical Maintenance
 title: "chore: "
 type: Task
+projects: ["versat-private/1"]
 
 body:
   - type: textarea
