@@ -1,0 +1,29 @@
+name: Chore
+description: Technical Maintenance
+title: "chore: "
+type: Task
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: "Example: Update outdated dependencies to keep the project supported."
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      placeholder: "Example: Update the affected packages and adjust any incompatible configuration."
+    validations:
+      required: true
+
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      placeholder: "Example: The project builds and the relevant tests pass."
+    validations:
+      required: true
