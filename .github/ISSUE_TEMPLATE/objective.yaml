@@ -2,6 +2,7 @@ name: Objective
 description: Strategic objective to achieve
 title: "okr: "
 type: OKR
+projects: ["versat-private/1"]
 
 body:
   - type: textarea
