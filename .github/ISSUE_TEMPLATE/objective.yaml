@@ -1,0 +1,13 @@
+name: Objective
+description: Strategic objective to achieve
+title: "okr: "
+type: OKR
+
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Describe what objective we want to achieve.
+    validations:
+      required: true
