@@ -2,7 +2,7 @@ name: Bug report
 description: Create a report to help us improve
 title: "fix: "
 type: Bug
-projects: ["versat-private/1"]
+projects: ["versat-labs/1"]
 
 body:
   - type: textarea
