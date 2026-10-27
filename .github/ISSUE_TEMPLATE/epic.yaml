@@ -5,7 +5,7 @@ labels:
   - roadmap
 assignees:
   - elviszoz
-type: Feature
+type: Epic
 projects: ["versat-labs/1"]
 
 body:
