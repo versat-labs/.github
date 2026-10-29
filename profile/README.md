@@ -34,6 +34,8 @@ We welcome developers, architects, designers, and technology enthusiasts who wan
 
 At Versat, we follow **Spec-Driven Development (SDD)**. We believe great software starts with a clear understanding of the problem, well-defined requirements, and shared agreement on the expected outcome — before writing code.
 
+If you have access to the private [Versat AI Harness](https://github.com/versat-labs/versat-ai-harness) repository, install its plugin and read its README for setup and workflow guidance. Internal Versat contributors already have the plugin installed automatically in our workspace.
+
 ### How You Can Contribute
 
 You can participate at different stages of development:
