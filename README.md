@@ -27,7 +27,7 @@ This repository contains organization metadata and documentation. It has no appl
 | [README.pt.md](README.pt.md) | Portuguese translation of this overview. |
 | [README.es.md](README.es.md) | Spanish translation of this overview. |
 | [profile/README.md](profile/README.md) | Public organization profile: Versat Labs' mission, vision, areas of work, contribution paths, and useful resources. |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Default contribution guide: ways to participate, local setup, Spec-Driven Development (SDD), human approval checkpoints, validation, pull requests, and language conventions. |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution entry point and links to maintained Harness guidance. |
 | [AGENTS.md](AGENTS.md) | Instructions for agents working in this repository, including scope, editing conventions, and validation requirements. |
 | [.gitignore](.gitignore) | Excludes local environment files, editor settings, logs, and generated artifacts from version control; allows `.env.example`. These patterns do not imply that build tooling exists here. |
 | [.github/ISSUE_TEMPLATE/bug_report.yaml](.github/ISSUE_TEMPLATE/bug_report.yaml) | Bug report form. Requires a description, reproduction steps, and expected behavior; also provides fields for screenshots, device details, and additional context. Uses the `fix: ` title prefix and `Bug` issue type. |
@@ -44,11 +44,7 @@ Open the repository you want to contribute to, read its contribution guidance, a
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md) before editing. Keep the three README versions aligned whenever their content changes.
 
-Material process or policy changes follow the documented SDD lifecycle:
-
-`Issue → Proposal & Requirements → Design → Tasks → Implementation → Validation → Pull Request`
-
-Proposal & Requirements, Design, and Tasks each require human approval before implementation. Routine documentation edits and form maintenance receive proportionate review. Changes to the profile are public-facing, and changes to defaults can affect multiple repositories.
+Detailed development instructions are maintained in the [Harness SDD guide](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/docs/user-docs/guides/sdd-with-codex.md) (private access required). Follow this repository’s AGENTS.md for local review and checks. Public contributors can start from [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Validation
 

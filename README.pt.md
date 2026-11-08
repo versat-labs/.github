@@ -27,7 +27,7 @@ O `AGENTS.md` e o `.gitignore` se aplicam a este repositório; o GitHub não os 
 | [README.pt.md](README.pt.md) | Tradução desta visão geral para o português. |
 | [README.es.md](README.es.md) | Tradução desta visão geral para o espanhol. |
 | [profile/README.md](profile/README.md) | Perfil público da organização: missão, visão, áreas de atuação, formas de contribuir e recursos úteis da Versat Labs. |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Guia padrão de contribuição: formas de participar, configuração local, desenvolvimento orientado por especificações (SDD), etapas de aprovação humana, validação, pull requests e convenções de idioma. |
+| [CONTRIBUTING.md](CONTRIBUTING.pt.md) | Entrada para contribuição e links para os guias mantidos no Harness. |
 | [AGENTS.md](AGENTS.md) | Instruções para agentes que trabalham neste repositório, incluindo escopo, convenções de edição e requisitos de validação. |
 | [.gitignore](.gitignore) | Exclui do controle de versão arquivos de ambiente local, configurações de editores, logs e artefatos gerados; permite `.env.example`. Esses padrões não indicam a existência de ferramentas de build neste repositório. |
 | [.github/ISSUE_TEMPLATE/bug_report.yaml](.github/ISSUE_TEMPLATE/bug_report.yaml) | Formulário de relato de bugs. Exige descrição, passos para reprodução e comportamento esperado; também oferece campos para capturas de tela, detalhes dos dispositivos e contexto adicional. Usa o prefixo de título `fix: ` e o tipo de issue `Bug`. |
@@ -42,13 +42,9 @@ Abra o repositório para o qual deseja contribuir, leia suas orientações de co
 
 ## Manutenção deste repositório
 
-Leia [CONTRIBUTING.md](CONTRIBUTING.md) e [AGENTS.md](AGENTS.md) antes de editar. Mantenha as três versões do README alinhadas sempre que seu conteúdo mudar.
+Leia [CONTRIBUTING.md](CONTRIBUTING.pt.md) e [AGENTS.md](AGENTS.md) antes de editar. Mantenha as três versões do README alinhadas sempre que seu conteúdo mudar.
 
-Mudanças substanciais em processos ou políticas seguem o ciclo de SDD documentado:
-
-`Issue → Proposta e requisitos → Design → Tarefas → Implementação → Validação → Pull request`
-
-Proposta e requisitos, Design e Tarefas exigem aprovação humana em cada etapa antes da implementação. Edições rotineiras de documentação e manutenção de formulários recebem revisão proporcional. Alterações no perfil são públicas, e alterações nos padrões podem afetar vários repositórios.
+As instruções detalhadas de desenvolvimento ficam no [guia SDD do Harness](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/docs/user-docs/guides/sdd-with-codex.pt.md) (requer acesso privado). Siga o AGENTS.md deste repositório para revisão e verificações locais. Contribuidores públicos podem começar por [CONTRIBUTING.pt.md](CONTRIBUTING.pt.md).
 
 ### Validação
 
