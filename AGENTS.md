@@ -10,7 +10,7 @@ These instructions apply to work in this repository. Do not treat this file as i
 
 - `README.md` is the short README for this repository.
 - `profile/README.md` is the public Versat Labs organization profile. It describes the mission, vision, areas of work, and contribution paths, and links to the contribution guide.
-- `CONTRIBUTING.md` provides the default organization contribution guidelines, including the SDD workflow, approval checkpoints, validation expectations, and language convention.
+- `CONTRIBUTING.md` provides the default organization contribution guidelines, with participation routes and links to canonical Harness setup, SDD, validation and language guidance.
 - `.github/ISSUE_TEMPLATE/bug_report.yaml` is the bug report form (`fix: ` title, `Bug` issue type).
 - `.github/ISSUE_TEMPLATE/chore.yaml` is the maintenance form (`chore: ` title, `Task` issue type).
 - `.github/ISSUE_TEMPLATE/feature_request.yaml` is the feature request form (`feat: ` title, `Feature` issue type).
