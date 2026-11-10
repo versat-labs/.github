@@ -18,3 +18,11 @@ Los siguientes recursos del Harness requieren acceso al repositorio privado. Sin
 - [Entrega mediante GitHub](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/docs/user-docs/guides/github-delivery.es.md)
 - [Validación](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/docs/user-docs/guides/validation-and-evaluations.es.md)
 - [Política canónica de idiomas (inglés)](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/standards/core/language.md)
+
+## Derechos y procedencia
+
+Antes de proponer código, texto o recursos, identifique su origen, los permisos aplicables y los avisos exigidos. Si no puede acreditar el permiso para contribuir una ilustración, omítala y consulte al responsable del repositorio; una issue o revisión técnica no aporta derechos ausentes. Siga los términos efectivos del repositorio de destino. El permiso para usar una herramienta interna de desarrollo es distinto de la licencia del proyecto de destino, e instalar esa herramienta no es un requisito para la contribución pública descrita arriba. Esta guía no introduce CLA, DCO ni cesión de derechos.
+
+## Informes de seguridad
+
+Para bugs comunes, usa Bug report. Para sospechas de vulnerabilidad en repositorios públicos, usa Private Vulnerability Reporting de GitHub cuando esté habilitado. En los privados, envía email a los CODEOWNERS pertinentes por los canales internos existentes de Versat. No divulgues detalles de vulnerabilidades en issues comunes. Consulta [reportes de seguridad](SECURITY.es.md) para encaminamiento y recuperación cuando el canal no esté disponible.

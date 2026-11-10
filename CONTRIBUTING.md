@@ -18,3 +18,11 @@ The following Harness resources require private repository access. If you do not
 - [GitHub delivery](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/docs/user-docs/guides/github-delivery.md)
 - [Validation](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/docs/user-docs/guides/validation-and-evaluations.md)
 - [Canonical language policy (English)](https://github.com/versat-labs/versat-ai-harness/blob/27735687a37e896cd6b0c95cd9d2d848ee166d90/standards/core/language.md)
+
+## Rights and provenance
+
+Before proposing code, text or assets, identify their source, applicable permissions and required notices. If you cannot establish permission to contribute an illustration, omit it and ask the repository owner; an issue or technical review does not supply missing rights. Follow the target repository's actual terms. Permission to use an internal development tool is separate from the destination project's license, and installing that tool is not required for the public contribution route above. This guidance introduces no CLA, DCO or rights assignment.
+
+## Security reports
+
+For ordinary bugs, use Bug report. For suspected vulnerabilities in public repositories, use GitHub Private Vulnerability Reporting when enabled. For private repositories, email the relevant CODEOWNERS through existing internal Versat channels. Do not disclose vulnerability details in ordinary issues. See [security reporting](SECURITY.md) for routing and unavailable-channel recovery.
