@@ -1,0 +1,32 @@
+name: Task 007 qualification
+on:
+  push:
+    branches: [task-007-qualification-base]
+  pull_request:
+    branches: [task-007-qualification-base]
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: task-007-content-validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Check whitespace and the qualification document
+        run: |
+          git diff --check HEAD^1 HEAD
+          python3 - <<'PY'
+          import subprocess
+
+          path = ".github/qualification/task-007.md"
+          text = subprocess.check_output(["git", "show", f"HEAD:{path}"]).decode("utf-8")
+          if not text.startswith("# Owner review qualification\n") or len(text.splitlines()) < 3:
+              raise SystemExit("Keep the qualification heading and sample text.")
+          PY
